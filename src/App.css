@@ -1,7 +1,8 @@
-.App {
-  text-align: center;
-}
 
+*{
+  margin: 0;
+  padding: 0;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +36,101 @@
   to {
     transform: rotate(360deg);
   }
+}
+/* ---------------------------------- */
+.App {
+  text-align: center;
+  width: 320px;
+  color: white;
+  border-radius: 5px;
+  overflow: hidden;
+  background-color: #1A1B21;
+  margin: 30px 0px;
+}
+/* ---------------------InFO------------------------------- */
+.Info{
+  position: relative;
+}
+.img{
+  width: 100%;
+  margin-bottom: 15px;
+ }
+.img>img{
+  width: 100%;
+}
+.Info>p{
+  font-size: 13px;
+  color: #F3BF99;
+  margin-top: 3px;
+  margin-bottom: 8px;
+}
+.Info>span{
+  font-size: 12px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+.buttons{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.buttons> button{
+padding: 9px 15px;
+border:none;
+}
+.EmailBtn{
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 5px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+.EmailBtn>img{
+  
+  margin-right: 8px;
+}
+.EmailBtn>span{
+  font-size: 14px;
+  color: #374151;
+}
+.LinkdinBtn{
+  background: #5093E2;
+  display: flex;
+  align-items: center;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.LinkdinBtn>img{
+  margin-right: 8px;
+}
+/* ---------------------------ABOUT ---------------- */
+
+.About{
+  text-align: left;
+  padding: 10px 20px;
+}
+.About>p{
+  color: #DCDCDC;
+  font-size: 13px;
+}
+/* ---------------------------------------- Interests ----------------------------------- */
+
+.Interests{
+  text-align: left;
+  padding: 10px 20px;
+}
+.Interests>p{
+  color: #DCDCDC;
+  font-size: 13px;
+}
+/* ----------------------------Footer --------------------- */
+.Footer{
+  background: #161619;
+  display: block;
+  padding: 10px 20px
+}
+.Footer>a>img{
+  margin-right: 15px;
 }
